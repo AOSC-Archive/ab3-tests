@@ -1,4 +1,7 @@
 #! /bin/bash
+
+cat /dev/null > failed-tests
+
 if [ ! "$AUTOBUILD" ]; then
 	AUTOBUILD=autobuild
 fi
@@ -21,8 +24,9 @@ do
 			FAIL=1
 		fi
 	fi
+	popd > /dev/null
 	if [ "$FAIL" = "1" ]; then
 		echo "Test $i FAILED" >&2
+		echo "$i" >> failed-tests
 	fi
-	popd > /dev/null
 done
