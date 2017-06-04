@@ -5,3 +5,5 @@ ab-dpkg
 abscripts
 failed-tests
 .patch
+ablog
+build/
