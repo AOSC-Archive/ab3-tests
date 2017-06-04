@@ -1,7 +1,0 @@
-PKGNAME=ab3-tests-self-1
-PKGDES="Autobuild3 Tests self/1"
-PKGSEC=misc
-PKGVER=1
-
-ABARCHIVE=
-ABINSTALL=
