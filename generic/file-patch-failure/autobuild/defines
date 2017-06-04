@@ -1,0 +1,7 @@
+PKGNAME=ab3-tests-generic-patch-failure
+PKGDES="Autobuild3 Tests generic/patch-failure"
+PKGSEC=misc
+PKGVER=1
+
+ABARCHIVE=
+ABINSTALL=
