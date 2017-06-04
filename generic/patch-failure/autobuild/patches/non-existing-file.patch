@@ -1,0 +1,6 @@
+diff -Naur a/a.txt b/a.txt
+--- a/a.txt	2017-06-04 19:42:53.562534933 +0800
++++ b/a.txt	2017-06-04 19:43:00.971597521 +0800
+@@ -1 +1 @@
+-aaaaaaaaaaaa
++bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
