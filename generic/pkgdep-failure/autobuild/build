@@ -1,3 +1,1 @@
-mkdir -p "$PKGDIR"/usr/share/ab3-tests/generic/pkgdep-failure
-touch "$PKGDIR"/usr/share/ab3-tests/generic/pkgdep-failure/test
-
+mkdir -p "$PKGDIR"
