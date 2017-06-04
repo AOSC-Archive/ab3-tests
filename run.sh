@@ -1,5 +1,7 @@
 #! /bin/bash
 
+/bin/bash clean.sh
+
 cat /dev/null > failed-tests
 
 if [ ! "$AUTOBUILD" ]; then
