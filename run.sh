@@ -14,7 +14,7 @@ do
 	else
 		FAIL=1
 	fi
-	if [ -e "$i/EXPECT_FAILURE" ]; then
+	if [ -e "EXPECT_FAILURE" ]; then
 		if [ "$FAIL" = "1" ]; then
 			FAIL=0
 		else
