@@ -1,0 +1,8 @@
+PKGNAME=ab3-tests-generic-pkgdep-failure
+PKGDES="Autobuild3 Tests generic/pkgdep-failure"
+PKGSEC=misc
+PKGVER=1
+PKGDEP="zhezenmekenengcunzai zhebukenengcunzai"
+
+ABARCHIVE=
+ABINSTALL=
