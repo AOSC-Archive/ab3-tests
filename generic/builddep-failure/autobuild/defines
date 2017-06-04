@@ -1,0 +1,8 @@
+PKGNAME=dummy
+PKGDES="dummy"
+PKGSEC=misc
+PKGVER=1
+BUILDDEP="zhezenmekenengcunzai zhebukenengcunzai"
+
+ABARCHIVE=
+ABINSTALL=
