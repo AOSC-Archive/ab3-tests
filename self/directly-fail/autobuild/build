@@ -1,0 +1,3 @@
+mkdir -p "$PKGDIR"/usr/share/ab3-tests/self/1
+touch "$PKGDIR"/usr/share/ab3-tests/self/1/test
+false # fail
