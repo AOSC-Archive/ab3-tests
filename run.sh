@@ -9,6 +9,20 @@ do
 	fi
 	echo "Running test $i"
 	pushd $i > /dev/null
-	"$AUTOBUILD"
+	if "$AUTOBUILD"; then
+		FAIL=0
+	else
+		FAIL=1
+	fi
+	if [ -e "$i/EXPECT_FAILURE" ]; then
+		if [ "$FAIL" = "1" ]; then
+			FAIL=0
+		else
+			FAIL=1
+		fi
+	fi
+	if [ "$FAIL" = "1" ]; then
+		echo "Test $i FAILED" >&2
+	fi
 	popd > /dev/null
 done
