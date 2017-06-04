@@ -1,5 +1,5 @@
-PKGNAME=ab3-tests-generic-pkgdep-failure
-PKGDES="Autobuild3 Tests generic/pkgdep-failure"
+PKGNAME=dummy
+PKGDES="dummy"
 PKGSEC=misc
 PKGVER=1
 PKGDEP="zhezenmekenengcunzai zhebukenengcunzai"

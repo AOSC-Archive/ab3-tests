@@ -1,5 +1,5 @@
-PKGNAME=ab3-tests-self-directly-fail
-PKGDES="Autobuild3 Tests self/directly-fail"
+PKGNAME=dummy
+PKGDES="dummy"
 PKGSEC=misc
 PKGVER=1
 
