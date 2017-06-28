@@ -1,0 +1,7 @@
+PKGNAME=dummy
+PKGDES="dummy"
+PKGSEC=misc
+PKGVER=1
+
+ABARCHIVE=
+ABINSTALL=
